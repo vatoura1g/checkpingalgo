@@ -1,0 +1,13 @@
+// n=9
+// s=1+2+3+4+5+6+7+8+9
+ALGORITHM SUM
+VAR
+    n,i:INTEGER
+    S:INTEGER=0
+BEGIN
+   Read(n) 
+   FOR i FROM 1 TO n STEP 1  DO
+       S:=S+i
+   END_FOR
+   Write(S)
+END
